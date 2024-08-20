@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro de Usuário</h1>
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+        <label>Sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br><br>
+        <label for="uf">UF</label>
+        <select id="uf" name="uf">
+            <option value="DF">DF</option>
+            <option value="RJ">RJ</option>
+            <option value="SP">SP</option>
+            <option value="MG">MG</option>
+        </select>
+        <br><br>
+        <legend>Hobbies</legend>
+        <fieldset>
+            <input type="checkbox" id="futebol" name="hobbies" value="futebol">
+            <label for="futebol">Futebol</label>
+            <input type="checkbox" id="xadrez" name="hobbies" value="xadrez">
+            <label for="xadrez">Xadrez</label>
+            <input type="checkbox" id="esportes" name="hobbies" value="esportes">
+            <label for="esportes">Esportes</label>
+            <input type="checkbox" id="musica" name="hobbies" value="musica">
+            <label for="musica">Música</label>
+            <input type="checkbox" id="cinema" name="hobbies" value="cinema">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" id="leitura" name="hobbies" value="leitura">
+            <label for="leitura">Leitura</label>
+        </fieldset>
+        <br><br>
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="40"></textarea>
+        <br><br>
+        <button><a href="index.html">Voltar</a></button>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
